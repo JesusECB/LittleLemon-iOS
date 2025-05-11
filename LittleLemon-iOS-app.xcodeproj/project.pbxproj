@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CD3E76362DD10D95001B214E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3E761B2DD10D94001B214E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3E76222DD10D94001B214E;
+			remoteInfo = "LittleLemon-iOS-app";
+		};
+		CD3E76402DD10D95001B214E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3E761B2DD10D94001B214E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3E76222DD10D94001B214E;
+			remoteInfo = "LittleLemon-iOS-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3E76232DD10D94001B214E /* LittleLemon-iOS-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittleLemon-iOS-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3E76352DD10D95001B214E /* LittleLemon-iOS-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LittleLemon-iOS-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3E763F2DD10D95001B214E /* LittleLemon-iOS-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LittleLemon-iOS-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD3E76252DD10D94001B214E /* LittleLemon-iOS-app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LittleLemon-iOS-app";
+			sourceTree = "<group>";
+		};
+		CD3E76382DD10D95001B214E /* LittleLemon-iOS-appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LittleLemon-iOS-appTests";
+			sourceTree = "<group>";
+		};
+		CD3E76422DD10D95001B214E /* LittleLemon-iOS-appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LittleLemon-iOS-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3E76202DD10D94001B214E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E76322DD10D95001B214E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E763C2DD10D95001B214E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3E761A2DD10D94001B214E = {
+			isa = PBXGroup;
+			children = (
+				CD3E76252DD10D94001B214E /* LittleLemon-iOS-app */,
+				CD3E76382DD10D95001B214E /* LittleLemon-iOS-appTests */,
+				CD3E76422DD10D95001B214E /* LittleLemon-iOS-appUITests */,
+				CD3E76242DD10D94001B214E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3E76242DD10D94001B214E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3E76232DD10D94001B214E /* LittleLemon-iOS-app.app */,
+				CD3E76352DD10D95001B214E /* LittleLemon-iOS-appTests.xctest */,
+				CD3E763F2DD10D95001B214E /* LittleLemon-iOS-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3E76222DD10D94001B214E /* LittleLemon-iOS-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3E76492DD10D95001B214E /* Build configuration list for PBXNativeTarget "LittleLemon-iOS-app" */;
+			buildPhases = (
+				CD3E761F2DD10D94001B214E /* Sources */,
+				CD3E76202DD10D94001B214E /* Frameworks */,
+				CD3E76212DD10D94001B214E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD3E76252DD10D94001B214E /* LittleLemon-iOS-app */,
+			);
+			name = "LittleLemon-iOS-app";
+			packageProductDependencies = (
+			);
+			productName = "LittleLemon-iOS-app";
+			productReference = CD3E76232DD10D94001B214E /* LittleLemon-iOS-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3E76342DD10D95001B214E /* LittleLemon-iOS-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3E764C2DD10D95001B214E /* Build configuration list for PBXNativeTarget "LittleLemon-iOS-appTests" */;
+			buildPhases = (
+				CD3E76312DD10D95001B214E /* Sources */,
+				CD3E76322DD10D95001B214E /* Frameworks */,
+				CD3E76332DD10D95001B214E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3E76372DD10D95001B214E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD3E76382DD10D95001B214E /* LittleLemon-iOS-appTests */,
+			);
+			name = "LittleLemon-iOS-appTests";
+			packageProductDependencies = (
+			);
+			productName = "LittleLemon-iOS-appTests";
+			productReference = CD3E76352DD10D95001B214E /* LittleLemon-iOS-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3E763E2DD10D95001B214E /* LittleLemon-iOS-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3E764F2DD10D95001B214E /* Build configuration list for PBXNativeTarget "LittleLemon-iOS-appUITests" */;
+			buildPhases = (
+				CD3E763B2DD10D95001B214E /* Sources */,
+				CD3E763C2DD10D95001B214E /* Frameworks */,
+				CD3E763D2DD10D95001B214E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3E76412DD10D95001B214E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD3E76422DD10D95001B214E /* LittleLemon-iOS-appUITests */,
+			);
+			name = "LittleLemon-iOS-appUITests";
+			packageProductDependencies = (
+			);
+			productName = "LittleLemon-iOS-appUITests";
+			productReference = CD3E763F2DD10D95001B214E /* LittleLemon-iOS-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3E761B2DD10D94001B214E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CD3E76222DD10D94001B214E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CD3E76342DD10D95001B214E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CD3E76222DD10D94001B214E;
+					};
+					CD3E763E2DD10D95001B214E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CD3E76222DD10D94001B214E;
+					};
+				};
+			};
+			buildConfigurationList = CD3E761E2DD10D94001B214E /* Build configuration list for PBXProject "LittleLemon-iOS-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3E761A2DD10D94001B214E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD3E76242DD10D94001B214E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3E76222DD10D94001B214E /* LittleLemon-iOS-app */,
+				CD3E76342DD10D95001B214E /* LittleLemon-iOS-appTests */,
+				CD3E763E2DD10D95001B214E /* LittleLemon-iOS-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3E76212DD10D94001B214E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E76332DD10D95001B214E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E763D2DD10D95001B214E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3E761F2DD10D94001B214E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E76312DD10D95001B214E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E763B2DD10D95001B214E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3E76372DD10D95001B214E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3E76222DD10D94001B214E /* LittleLemon-iOS-app */;
+			targetProxy = CD3E76362DD10D95001B214E /* PBXContainerItemProxy */;
+		};
+		CD3E76412DD10D95001B214E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3E76222DD10D94001B214E /* LittleLemon-iOS-app */;
+			targetProxy = CD3E76402DD10D95001B214E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD3E76472DD10D95001B214E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD3E76482DD10D95001B214E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3E764A2DD10D95001B214E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemon-iOS-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "J.-E.-Castan-eda-B..LittleLemon-iOS-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD3E764B2DD10D95001B214E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemon-iOS-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "J.-E.-Castan-eda-B..LittleLemon-iOS-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD3E764D2DD10D95001B214E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "J.-E.-Castan-eda-B..LittleLemon-iOS-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemon-iOS-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemon-iOS-app";
+			};
+			name = Debug;
+		};
+		CD3E764E2DD10D95001B214E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "J.-E.-Castan-eda-B..LittleLemon-iOS-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemon-iOS-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemon-iOS-app";
+			};
+			name = Release;
+		};
+		CD3E76502DD10D95001B214E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "J.-E.-Castan-eda-B..LittleLemon-iOS-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LittleLemon-iOS-app";
+			};
+			name = Debug;
+		};
+		CD3E76512DD10D95001B214E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "J.-E.-Castan-eda-B..LittleLemon-iOS-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LittleLemon-iOS-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3E761E2DD10D94001B214E /* Build configuration list for PBXProject "LittleLemon-iOS-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3E76472DD10D95001B214E /* Debug */,
+				CD3E76482DD10D95001B214E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3E76492DD10D95001B214E /* Build configuration list for PBXNativeTarget "LittleLemon-iOS-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3E764A2DD10D95001B214E /* Debug */,
+				CD3E764B2DD10D95001B214E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3E764C2DD10D95001B214E /* Build configuration list for PBXNativeTarget "LittleLemon-iOS-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3E764D2DD10D95001B214E /* Debug */,
+				CD3E764E2DD10D95001B214E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3E764F2DD10D95001B214E /* Build configuration list for PBXNativeTarget "LittleLemon-iOS-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3E76502DD10D95001B214E /* Debug */,
+				CD3E76512DD10D95001B214E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3E761B2DD10D94001B214E /* Project object */;
+}
