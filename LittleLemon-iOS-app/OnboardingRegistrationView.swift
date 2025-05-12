@@ -1,41 +1,47 @@
+//
+//  OnboardingRegistrationView.swift
+//  LittleLemon-iOS-app
+//
+//  Created by Enrique on 11/5/25.
+//
+
 import SwiftUI
 import SwiftData
 
 struct OnboardingRegistrationView: View {
     @Environment(\.modelContext) private var context
+    @EnvironmentObject var appState: AppState
     @Query private var users: [User]
 
     @State private var firstName = ""
     @State private var lastName = ""
     @State private var email = ""
-    @State private var navigateToHome = false
 
-    
-    
     var body: some View {
-           NavigationStack {
-               VStack(spacing: 24) {
-                   
-                   // LOGO SEPARADO (encima del cuadro verde)
-                   Image("logo")
-                       .resizable()
-                       .scaledToFit()
-                       .frame(height: 60)
-                       .padding(.top, 32)
+        NavigationStack {
+            VStack(spacing: 24) {
 
-                   
-                   VStack(alignment: .leading, spacing: 12) {
-                       Text("Let’s get to know you")
-                           .font(.system(size:  32, weight: .heavy))
-                           .foregroundColor(.llYellow)
-                   }
-                   .padding(.vertical, 80)
-                   .padding(.horizontal)
-                   .frame(maxWidth: .infinity)
-                   .background(Color.llGreenDark)
-                   .cornerRadius(12)
-                   .padding(.horizontal)
-                // Formulario
+                // LOGO
+                Image("logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 60)
+                    .padding(.top, 32)
+
+                // TÍTULO SOBRE CUADRO VERDE
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("Let’s get to know you")
+                        .font(.system(size: 32, weight: .heavy))
+                        .foregroundColor(.llYellow)
+                }
+                .padding(.vertical, 80)
+                .padding(.horizontal)
+                .frame(maxWidth: .infinity)
+                .background(Color.llGreenDark)
+                .cornerRadius(12)
+                .padding(.horizontal)
+
+                // FORMULARIO
                 VStack(alignment: .leading, spacing: 16) {
                     Text("Personal information")
                         .font(.headline)
@@ -55,7 +61,7 @@ struct OnboardingRegistrationView: View {
                         let user = User(firstName: firstName, lastName: lastName, email: email)
                         context.insert(user)
                         try? context.save()
-                        navigateToHome = true
+                        appState.isLoggedIn = true
                     }
                     .frame(maxWidth: .infinity)
                     .padding()
@@ -71,16 +77,15 @@ struct OnboardingRegistrationView: View {
                 Spacer()
             }
             .padding(.top)
-            .navigationDestination(isPresented: $navigateToHome) {
-                HomeView().environmentObject(HomeViewModel())
-            }
         }
     }
 }
 
 #Preview {
-    OnboardingRegistrationView()
-        .environmentObject(HomeViewModel())
+    let appState = AppState()
+    appState.isLoggedIn = true
+
+    return RootView()
+        .environmentObject(appState)
         .modelContainer(for: User.self)
 }
-

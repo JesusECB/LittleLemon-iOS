@@ -94,5 +94,6 @@ struct HomeView: View {
 #Preview {
     HomeView()
         .environmentObject(HomeViewModel())
+        .environmentObject(AppState())
 
 }

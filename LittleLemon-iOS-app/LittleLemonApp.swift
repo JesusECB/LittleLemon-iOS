@@ -11,11 +11,17 @@ import SwiftData
 
 @main
 struct LittleLemonApp: App {
+    @StateObject var appState = AppState()
+
     var body: some Scene {
         WindowGroup {
-            OnboardingRegistrationView()
+            RootView()
+                .environmentObject(appState)
+                .modelContainer(for: User.self)
         }
-        .modelContainer(for: User.self)
     }
 }
+
+
+
 
